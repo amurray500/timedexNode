@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Site</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/timedex.css" />
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+    <script src="scripts/timedexjq.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="header">
+            <div id="currentExerciseLabel">Current</div>
+            <div id="nextExerciseLabel">Next</div>
+            <div id="currentExercise">&nbsp;</div>
+            <div id="nextExercise">&nbsp;</div>
+        </div>
+
+        <div id="threecolwrapper">
+            <div id="leftCol">
+                <div id="totalTime" class="leftItems">Total Time
+                    <input id="totalTimeInput" type="text" class="counterInputs">
+                </div>
+                <div id="ellapsedTime" class="leftItems">Ellapsed
+                    <input id="ellapsedTimeInput" type="text" class="counterInputs">
+                </div>
+                <div id="timeLeft" class="leftItems">Time Left
+                    <input id="timeLeftInput" type="text" class="counterInputs">
+                </div>
+                <div id="exerciseCnt" class="leftItems">Exercise Cnt
+                    <input id="exerciseCntInput" type="text" class="counterInputs">
+                </div>
+            </div>
+            <div id="centerCol">
+                <div id="cdDiv">0</div>
+            </div>
+            <div id="rightCol">
+                <button id="startBtn" name="button">Start</button>
+                <button id="stopBtn" name="button">Stop</button>
+                <button id="pauseBtn" name="button">Pause</button>
+                <button id="resetBtn" name="button">Reset</button>
+            </div>
+            <br style="clear: left;" />
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
