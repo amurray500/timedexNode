@@ -6,9 +6,11 @@
     <title>TimedEx</title>
 
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" type="text/css" href="styles/timedex.css" />
-    
+
     <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="lib/howler.js/dist/howler.js"></script>
     <script src="scripts/timedexjq.js"></script>
 
@@ -35,8 +37,12 @@
                 <div id="timeLeft" class="leftItems">Time Left
                     <input id="timeLeftInput" type="text" class="counterInputs">
                 </div>
-                <div id="exerciseCnt" class="leftItems">Exercise Cnt
-                    <input id="exerciseCntInput" type="text" class="counterInputs">
+                <label for="progressDiv" style="text-align: center">Progress</label>
+                <div id="progressDiv" class="progress">
+                    <div id="innerProgressDiv" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width:0%">
+                        0%
+                    </div>
                 </div>
             </div>
             <div id="centerCol">
