@@ -3,18 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sample Site</title>
+    <title>TimedEx</title>
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles/timedex.css" />
-    <style>
-        body {
-            padding-top: 50px;
-        }
-    </style>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
-
+    
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/howler.js/dist/howler.js"></script>
     <script src="scripts/timedexjq.js"></script>
 
 </head>
@@ -45,7 +40,7 @@
                 </div>
             </div>
             <div id="centerCol">
-                <div id="cdDiv">0</div>
+                <div id="cdDiv">&nbsp;</div>
             </div>
             <div id="rightCol">
                 <button id="startBtn" name="button">Start</button>

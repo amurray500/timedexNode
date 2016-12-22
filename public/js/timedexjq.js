@@ -82,8 +82,6 @@ function seedVariables() {
   var topEx = null;
   var nextEx = null;
 
-
-
   topEx = exLoop.shift();
   currentEx = topEx.ex;
   currentTime = topEx.time;
@@ -109,6 +107,7 @@ function seedVariables() {
 
     setCounterColor(currentEx);
     clock = currentTime;
+    $('#cdDiv').html(currentTime);
 
 }
 
