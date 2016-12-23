@@ -31,6 +31,19 @@ $(function() {
 
     createSoundEffects();
 
+
+    /** 
+     * 
+     * function hhmmss(secs) {
+  var minutes = Math.floor(secs / 60);
+  secs = secs%60;
+  var hours = Math.floor(minutes/60)
+  minutes = minutes%60;
+  return pad(hours)+":"+pad(minutes)+":"+pad(secs);
+}
+     * 
+    */
+
     $.get("/getdata", function(data) {
         exData = data.data;
     }).then(function() {
@@ -91,6 +104,8 @@ $(function() {
         ellapsedTimeInput.val(exData.ellapsedTimex);
         timeLeftInput.val(exData.timeLeft);
         totalTimeInput.val(exData.totalTime);
+        currentExercise.html('&nbsp;');
+        nextExercise.html('&nbsp;');
         updateProgressBar(0);
     })
 
@@ -140,7 +155,11 @@ $(function() {
                 cdDiv.html(--clock);
                 ellapsedTimeInput.val(parseInt(ellapsedTimeInput.val()) + 1);
                 timeLeftInput.val(parseInt(timeLeftInput.val()) - 1);
-                updateProgressBar(Math.round((ellapsedTimeInput.val()/innerProgressDiv.attr('aria-valuemax')) * 100));
+                var percent = Math.round((ellapsedTimeInput.val()/innerProgressDiv.attr('aria-valuemax')) * 100);
+                updateProgressBar(percent);
+                if (percent == 100) {
+                    applause.play();
+                }
             }
         }
         else {
@@ -183,6 +202,10 @@ $(function() {
 
         shotgun = new Howl({
             src: ['sounds/shotgun-mossberg590-RA_The_Sun_God-451502290.mp3']
+        });
+
+        applause = new Howl({
+            src: ['sounds/Stadium Applause-SoundBible.com-1018949101.mp3']
         });
 
     }
