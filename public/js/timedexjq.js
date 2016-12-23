@@ -66,6 +66,34 @@ $(function () {
 		}
 	}
 
+	function getSecondsFromTime(timeStr) {
+		var seconds;
+
+		if (timeStr.indexOf(":") >= 0) {
+			var timeArray = timeStr.split(":");
+			seconds = parseInt(timeArray[0]) * 60; //change minutes to seconds
+			seconds = seconds + parseInt(timeArray[1]); // add seconds from current time
+		} else {
+			seconds = timeStr;
+		}
+
+		return seconds;
+
+	}
+
+	function updateTime(timeStr, incFlag) {
+		// this string includes a minute part need to change to all seconds first
+		var seconds = getSecondsFromTime(timeStr);
+
+		if (incFlag === true) {
+			seconds++;
+		} else {
+			seconds--;
+		}
+
+		return formatTime(seconds);
+	}
+
 	$.get("/getdata", function (data) {
 		exData = data.data;
 	}).then(function () {
@@ -99,9 +127,9 @@ $(function () {
 
 	$('body').on('click', '#startBtn', function () {
 		buildExLoop(exData);
-		ellapsedTimeInput.val(exData.ellapsedTimex);
-		timeLeftInput.val(exData.timeLeft);
-		totalTimeInput.val(exData.totalTime);
+		ellapsedTimeInput.val(formatTime(exData.ellapsedTimex));
+		timeLeftInput.val(formatTime(exData.timeLeft));
+		totalTimeInput.val(formatTime(exData.totalTime));
 
 
 		startBtn.prop("disabled", true);
@@ -125,9 +153,9 @@ $(function () {
 		console.log("resetBtn button clicked");
 		clearInterval(countdownid);
 		buildExLoop(exData);
-		ellapsedTimeInput.val(exData.ellapsedTimex);
-		timeLeftInput.val(exData.timeLeft);
-		totalTimeInput.val(exData.totalTime);
+		ellapsedTimeInput.val(formatTime(exData.ellapsedTimex));
+		timeLeftInput.val(formatTime(exData.timeLeft));
+		totalTimeInput.val(formatTime(exData.totalTime));
 		currentExercise.html('&nbsp;');
 		nextExercise.html('&nbsp;');
 		updateProgressBar(0);
@@ -176,9 +204,9 @@ $(function () {
 				}
 
 				cdDiv.html(formatTime(--clock));
-				ellapsedTimeInput.val(parseInt(ellapsedTimeInput.val()) + 1);
-				timeLeftInput.val(parseInt(timeLeftInput.val()) - 1);
-				var percent = Math.round((ellapsedTimeInput.val() / innerProgressDiv.attr('aria-valuemax')) * 100);
+				ellapsedTimeInput.val(updateTime(ellapsedTimeInput.val(), true));
+				timeLeftInput.val(updateTime(timeLeftInput.val(), false));
+				var percent = Math.round((getSecondsFromTime(ellapsedTimeInput.val()) / innerProgressDiv.attr('aria-valuemax')) * 100);
 				updateProgressBar(percent);
 				if (percent == 100) {
 					applause.play();

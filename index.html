@@ -2,65 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>TimedEx</title>
+	<meta charset="UTF-8">
+	<title>TimedEx</title>
 
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="styles/timedex.css" />
+	<link rel="stylesheet" type="text/css" href="styles/timedex.css" />
 
-    <script src="lib/jquery/dist/jquery.min.js"></script>
-    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="lib/howler.js/dist/howler.js"></script>
-    <script src="lib/moment/min/moment.min.js"></script>
-    
-    <script src="scripts/timedexjq.js"></script>
+	<script src="lib/jquery/dist/jquery.min.js"></script>
+	<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="lib/howler.js/dist/howler.js"></script>
+
+	<script src="scripts/timedexjq.js"></script>
 
 </head>
 
 <body>
 
-    <div class="container">
-        <div id="header">
-            <div id="currentExerciseLabel">Current</div>
-            <div id="nextExerciseLabel">Next</div>
-            <div id="currentExercise">&nbsp;</div>
-            <div id="nextExercise">&nbsp;</div>
-        </div>
+	<div class="container">
+		<div id="header">
+			<div id="currentExerciseLabel">Current</div>
+			<div id="nextExerciseLabel">Next</div>
+			<div id="currentExercise">&nbsp;</div>
+			<div id="nextExercise">&nbsp;</div>
+		</div>
 
-        <div id="threecolwrapper">
-            <div id="leftCol">
-                <div id="totalTime" class="leftItems">Total Time
-                    <input id="totalTimeInput" type="text" class="counterInputs">
-                </div>
-                <div id="ellapsedTime" class="leftItems">Ellapsed
-                    <input id="ellapsedTimeInput" type="text" class="counterInputs">
-                </div>
-                <div id="timeLeft" class="leftItems">Time Left
-                    <input id="timeLeftInput" type="text" class="counterInputs">
-                </div>
-                <label for="progressDiv" style="text-align: center">Progress</label>
-                <div id="progressDiv" class="progress">
-                    <div id="innerProgressDiv" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
-                        style="width:0%">
-                        0%
-                    </div>
-                </div>
-            </div>
-            <div id="centerCol">
-                <div id="cdDiv">&nbsp;</div>
-            </div>
-            <div id="rightCol">
-                <button id="startBtn" name="button">Start</button>
-                <button id="stopBtn" name="button">Stop</button>
-                <button id="pauseBtn" name="button">Pause</button>
-                <button id="resetBtn" name="button">Reset</button>
-            </div>
-            <br style="clear: left;" />
-        </div>
+		<div id="threecolwrapper">
+			<div id="leftCol">
+				<div id="totalTime" class="leftItems">Total Time
+					<input id="totalTimeInput" type="text" class="counterInputs">
+				</div>
+				<div id="ellapsedTime" class="leftItems">Ellapsed
+					<input id="ellapsedTimeInput" type="text" class="counterInputs">
+				</div>
+				<div id="timeLeft" class="leftItems">Time Left
+					<input id="timeLeftInput" type="text" class="counterInputs">
+				</div>
+				<label for="progressDiv" style="text-align: center">Progress</label>
+				<div id="progressDiv" class="progress">
+					<div id="innerProgressDiv" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+						0%
+					</div>
+				</div>
+			</div>
+			<div id="centerCol">
+				<div id="cdDiv">&nbsp;</div>
+			</div>
+			<div id="rightCol">
+				<button id="startBtn" name="button">Start</button>
+				<button id="stopBtn" name="button">Stop</button>
+				<button id="pauseBtn" name="button">Pause</button>
+				<button id="resetBtn" name="button">Reset</button>
+			</div>
+			<br style="clear: left;" />
+		</div>
 
 
-    </div>
+	</div>
 
 </body>
 
