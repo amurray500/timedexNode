@@ -3,117 +3,120 @@ div, span {
     border:1px solid black;
 }
 */
+
 span {
-    border:1px solid black;
+	border: 1px solid black;
 }
 
 div.container {
-    width: 98%;
-    margin: 10px;
-    padding: 0px;
-    border:6px solid black;
+	width: 98%;
+	margin: 10px;
+	padding: 0px;
+	border: 6px solid black;
 }
 
 .jumbotron {
-     margin: 10px;
-    padding: 0px;
-   
+	margin: 10px;
+	padding: 0px;
 }
 
 #cdDiv {
-    font-size: 450px;
-    color: red;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    line-height: 360px;
-    border:1px solid black;
-    border-bottom: 0;
+	font-size: 350px;
+	color: red;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	line-height: 360px;
+	border: 1px solid black;
+	border-bottom: 0;
 }
 
 #header {
-    width: 100%;
-    height: 109px;
+	width: 100%;
+	height: 109px;
 }
 
-#currentExercise, #currentExerciseLabel {
-    width: 50%;
-    float: left;
-    position: relative;
-    text-align: center;
-    background-color: #33ff22;
-    border:1px solid black;
+#currentExercise,
+#currentExerciseLabel {
+	width: 50%;
+	float: left;
+	position: relative;
+	text-align: center;
+	background-color: #33ff22;
+	border: 1px solid black;
 }
 
-#nextExercise, #nextExerciseLabel {
-    width: 50%;
-    float: right;
-    position: relative;
-    text-align: center;
-    background-color: rgba(255, 251, 34, 0.71);
-    border:1px solid black;
+#nextExercise,
+#nextExerciseLabel {
+	width: 50%;
+	float: right;
+	position: relative;
+	text-align: center;
+	background-color: rgba(255, 251, 34, 0.71);
+	border: 1px solid black;
 }
 
-#currentExercise, #nextExercise {
-    font-size: 60px;
+#currentExercise,
+#nextExercise {
+	font-size: 60px;
 }
 
 #threecolwrapper {
-    width: 100%;
+	width: 100%;
 }
 
 #leftCol {
-    display: flex;
-    flex-direction: column;
-    float: left; 
-    width: 15%;
-    background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	width: 15%;
+	background-color: lightgray;
 }
 
 .leftItems {
-    padding: 10px;
-    height: 95px;
-    text-align: center;
+	padding: 10px;
+	height: 95px;
+	text-align: center;
 }
 
 #centerCol {
-    float: left; 
-    width: 70%;    
+	float: left;
+	width: 70%;
 }
 
 #rightCol {
-    display: flex;
-    flex-direction: column;
-    float: left; 
-    width: 15%;    
-    background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	width: 15%;
+	background-color: lightgray;
 }
 
 button {
-    width: 100px;
-    margin-top: 33px;
-    margin-bottom: 32px;
-    margin-right: 33px;
-    margin-left: 40px;
+	width: 100px;
+	margin-top: 33px;
+	margin-bottom: 32px;
+	margin-right: 33px;
+	margin-left: 40px;
 }
 
 .counterInputs {
-    margin: 10px 0px 0px 0px;
-    width: 80%;
-    text-align: center;
+	margin: 10px 0px 0px 0px;
+	width: 80%;
+	text-align: center;
 }
 
 .pauseInterval {
-    border-color: red  !important;
-    border-width: 5px !important;
+	border-color: red !important;
+	border-width: 5px !important;
 }
 
 #progressDiv {
-    margin: 10px;
-    height: 30px;
+	margin: 10px;
+	height: 30px;
 }
 
 #innerProgressDiv {
-    font-size: 22px;
-    padding-top: 5px;
+	font-size: 22px;
+	padding-top: 5px;
 }

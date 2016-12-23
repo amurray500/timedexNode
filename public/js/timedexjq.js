@@ -50,20 +50,21 @@ $(function () {
 
 	})();
 
-	/**
-     * 
-     * function pad(num) {
-    return ("0"+num).slice(-2);
-}
-function hhmmss(secs) {
-  var minutes = Math.floor(secs / 60);
-  secs = secs%60;
-  var hours = Math.floor(minutes/60)
-  minutes = minutes%60;
-  return pad(hours)+":"+pad(minutes)+":"+pad(secs);
-}
-     * 
-    */
+	function pad(num) {
+		return ("0" + num).slice(-2);
+	}
+
+	function formatTime(secs) {
+		var timeString = "";
+		var minutes = Math.floor(secs / 60);
+		secs = secs % 60;
+		minutes = minutes % 60;
+		if (minutes == 0) {
+			return secs;
+		} else {
+			return minutes + ":" + pad(secs);
+		}
+	}
 
 	$.get("/getdata", function (data) {
 		exData = data.data;
@@ -163,7 +164,7 @@ function hhmmss(secs) {
 
 		setCounterColor(currentEx);
 		clock = currentTime;
-		cdDiv.html(currentTime);
+		cdDiv.html(formatTime(currentTime));
 
 	}
 
@@ -174,7 +175,7 @@ function hhmmss(secs) {
 					beep.play();
 				}
 
-				cdDiv.html(--clock);
+				cdDiv.html(formatTime(--clock));
 				ellapsedTimeInput.val(parseInt(ellapsedTimeInput.val()) + 1);
 				timeLeftInput.val(parseInt(timeLeftInput.val()) - 1);
 				var percent = Math.round((ellapsedTimeInput.val() / innerProgressDiv.attr('aria-valuemax')) * 100);
