@@ -98,6 +98,7 @@ $(function () {
 		exData = data.data;
 	}).then(function () {
 		setProgressBar(exData.totalTime);
+		totalTimeInput.val(formatTime(exData.totalTime));
 	});
 
 
