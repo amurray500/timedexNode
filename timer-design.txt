@@ -1,6 +1,0 @@
-Current exercise : up next
-
-warm up countdown : countdown timer
-total time : time left : # of # exercises
-
-start : stop : pause : reset
