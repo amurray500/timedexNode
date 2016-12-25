@@ -1,0 +1,20 @@
+Delay
+Calves 15 11
+Calves 14 10
+Curls 10 8
+Curls 9 7
+Squat 9 9
+Squat 10 8
+Seated Press 8 9
+Seated Press 7 8
+Rows 6 5
+Rows 5 4
+Alan Pushups 4
+Jenna Pushups 3
+Alan Pushups 3
+Jenna Pushups 2
+DeadLifts 3 3
+DeadLifts 2 2
+Bullworker front 
+Bullworker right 
+Bullworker left 
