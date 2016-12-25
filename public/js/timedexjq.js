@@ -140,18 +140,15 @@ $(function () {
 	});
 
 	stopBtn.click(function () {
-		console.log("stopBtn button clicked");
 		clearInterval(countdownid);
 		buildExLoop(exData);
 	})
 
 	pauseBtn.click(function () {
-		console.log("pauseBtn button clicked");
 		cdDiv.toggleClass('pauseInterval');
 	})
 
 	resetBtn.click(function () {
-		console.log("resetBtn button clicked");
 		clearInterval(countdownid);
 		buildExLoop(exData);
 		ellapsedTimeInput.val(formatTime(exData.ellapsedTimex));
@@ -185,8 +182,6 @@ $(function () {
 			nextTime = 0;
 			lastRunFlag = true;
 		} // end if
-
-		console.log(`${currentEx} : ${currentTime} : ${nextEx}`);
 
 		currentExercise.html(currentEx);
 		nextExercise.html(nextEx);
@@ -237,13 +232,11 @@ $(function () {
 	}
 
 	function setProgressBar(maxTime) {
-		console.log('in setProgressBar: ' + maxTime);
 		innerProgressDiv.attr('aria-valuemax', maxTime);
 
 	}
 
 	function updateProgressBar(percent) {
-		console.log('percent = ' + percent)
 		innerProgressDiv.attr('aria-valuenow', percent);
 		innerProgressDiv.width(percent + '%');
 		innerProgressDiv.html(percent + '%');
