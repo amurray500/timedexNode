@@ -2,6 +2,10 @@ $(function () {
 	// Handler for .ready() called.
 	'use strict';
 
+	const START = "Start";
+	const PAUSE = "Pause";
+	const RESTART = "Restart";
+
 	var clock, countdownid = 0,
 		exData = "test",
 		exLoop = [],
@@ -19,9 +23,7 @@ $(function () {
 		innerProgressDiv = $('#innerProgressDiv'),
 		timeLeftInput = $('#timeLeftInput'),
 		totalTimeInput = $("#totalTimeInput"),
-		startBtn = $('#startBtn'),
-		stopBtn = $("#stopBtn"),
-		pauseBtn = $("#pauseBtn"),
+		startPauseBtn = $('#startPauseBtn'),
 		resetBtn = $("#resetBtn"),
 		currentExercise = $('#currentExercise'),
 		nextExercise = $('#nextExercise');
@@ -122,31 +124,29 @@ $(function () {
 			});
 		});
 
-		startBtn.prop("disabled", false);
-
 	} // end buildExLoop function
 
-	$('body').on('click', '#startBtn', function () {
-		buildExLoop(exData);
-		ellapsedTimeInput.val(formatTime(exData.ellapsedTimex));
-		timeLeftInput.val(formatTime(exData.timeLeft));
-		totalTimeInput.val(formatTime(exData.totalTime));
+	startPauseBtn.click(function () {
+		var buttonText = startPauseBtn.text();
 
+		if (buttonText === START) {
+			startPauseBtn.text(PAUSE);
+			buildExLoop(exData);
+			ellapsedTimeInput.val(formatTime(exData.ellapsedTimex));
+			timeLeftInput.val(formatTime(exData.timeLeft));
+			totalTimeInput.val(formatTime(exData.totalTime));
 
-		startBtn.prop("disabled", true);
-		lastRunFlag = false;
+			lastRunFlag = false;
+			startCounter();
 
-		startCounter();
+		} else if (buttonText === PAUSE) {
+			startPauseBtn.text(RESTART);
+			cdDiv.addClass('pauseInterval');
+		} else {
+			startPauseBtn.text(PAUSE);
+			cdDiv.removeClass('pauseInterval');
+		}
 	});
-
-	stopBtn.click(function () {
-		clearInterval(countdownid);
-		buildExLoop(exData);
-	})
-
-	pauseBtn.click(function () {
-		cdDiv.toggleClass('pauseInterval');
-	})
 
 	resetBtn.click(function () {
 		clearInterval(countdownid);
@@ -157,6 +157,7 @@ $(function () {
 		currentExercise.html('&nbsp;');
 		nextExercise.html('&nbsp;');
 		updateProgressBar(0);
+		startPauseBtn.text(START);
 	})
 
 	function startCounter() {
@@ -214,7 +215,7 @@ $(function () {
 				seedVariables();
 				countdownid = setInterval(countdown, 1000);
 			} else {
-				startBtn.prop("disabled", false);
+				startPauseBtn.text(START);
 			} // end if
 
 		} // end if
