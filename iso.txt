@@ -1,6 +1,8 @@
+10
+30
 Delay
 Calves 15 11
-Calves 14 10
+Calves 14 11
 Curls 10 8
 Curls 9 7
 Squat 9 9
@@ -15,6 +17,9 @@ Alan Pushups 3
 Jenna Pushups 2
 DeadLifts 3 3
 DeadLifts 2 2
-Bullworker front 
-Bullworker right 
-Bullworker left 
+Alan Bullworker front 
+Jenna Bullworker front 
+Alan Bullworker right 
+Jenna Bullworker right 
+Alan Bullworker left 
+Jenna Bullworker left 

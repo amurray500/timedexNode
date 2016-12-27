@@ -1,18 +1,20 @@
+10
+30
 Delay
-Calves 15 11
-Calves 14 10
-Curls 10 8
-Curls 9 7
-Squat 9 9
-Squat 10 8
-Seated Press 10 9
-Seated Press 11 8
-Rows 6 5
-Rows 5 4
+Calves 15
+Calves 14
+Curls 10
+Curls 9
+Squat 9
+Squat 10
+Seated Press 10
+Seated Press 11
+Rows 6
+Rows 5
 Alan Pushups 4
 Alan Pushups 3
-DeadLifts 3 3
-DeadLifts 2 2
+DeadLifts 3
+DeadLifts 2
 Bullworker front 
 Bullworker right 
 Bullworker left 

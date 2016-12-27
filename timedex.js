@@ -7,14 +7,15 @@ var eData = require("./timedex-read.js");
 
 var dataObj = {};
 
-dataObj.workTime = inputs.workTime;
-dataObj.restTime = inputs.restTime;
 var exerciseFile = inputs.exerciseFile;
 
 var exerciseData = eData.readExFile(exerciseFile);
 
 // remove any empty strings
 dataObj.exerciseData = exerciseData.filter(entry => entry.trim() != '');
+
+dataObj.workTime = dataObj.exerciseData.shift();
+dataObj.restTime = dataObj.exerciseData.shift();
 
 console.log(`${dataObj.exerciseData.length}`);
 dataObj.totalExercises = dataObj.exerciseData.length;
