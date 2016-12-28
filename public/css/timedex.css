@@ -84,7 +84,7 @@ div.container {
 
 .rightItems {
 	padding: 10px;
-	margin-top: 48px;
+	margin-top: 28px;
 	text-align: center;
 }
 
@@ -124,12 +124,12 @@ button {
 	margin-bottom: 30px;
 	margin-left: 10px;
 	margin-right: 10px;
-	height: 30px;
+	height: 70px;
 }
 
 #innerProgressDiv {
-	font-size: 22px;
-	padding-top: 5px;
+	font-size: 52px;
+	padding-top: 25px;
 }
 
 .progressDivWrapper {
