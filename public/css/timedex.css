@@ -76,9 +76,9 @@ div.container {
 }
 
 .leftItems {
-	margin-top: 19px;
+	margin-top: 12px;
 	padding: 10px;
-	height: 101px;
+	height: 108px;
 	text-align: center;
 }
 
@@ -112,6 +112,8 @@ button {
 	margin: 10px 0px 0px 0px;
 	width: 80%;
 	text-align: center;
+	height: 55px;
+	font-size: 44px;
 }
 
 .pauseInterval {
@@ -129,6 +131,7 @@ button {
 
 #innerProgressDiv {
 	font-size: 52px;
+	color: black;
 	padding-top: 25px;
 }
 
