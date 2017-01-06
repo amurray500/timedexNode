@@ -13,3 +13,4 @@ Here is a simple example of running using the defaults
 
 node timedex.js -e exercises.txt
 
+Note that logging has been added so that you can keep track of your workout history. A new folder now exists called wod-log. If you run the app multiple times in a day then the new data simply get concatenated to the end of the log file for that day. If this is the first run for the day a new file is created. The timestamp is used to name the files.
