@@ -115,12 +115,8 @@ $(function () {
 		// add exercise sections
 		dataObj.exerciseData.forEach(function (entry) {
 			exLoop.push({
-				ex: entry,
-				time: dataObj.workTime
-			});
-			exLoop.push({
-				ex: 'Rest',
-				time: dataObj.restTime
+				ex: entry.exercise,
+				time: entry.time
 			});
 		});
 

@@ -5,6 +5,15 @@ var open = require("open");
 var inputs = require("./timedex-input.js");
 var eData = require("./timedex-read.js");
 
+// create a rolling file logger based on date/time
+const opts = {
+	logDirectory: 'wod-log',
+	fileNamePattern: 'wod-<DATE>.log',
+	dateFormat: 'YYYY.MM.DD'
+};
+
+const log = require('simple-node-logger').createRollingFileLogger(opts);
+
 var dataObj = {};
 
 var exerciseFile = inputs.exerciseFile;
@@ -12,13 +21,18 @@ var exerciseFile = inputs.exerciseFile;
 var exerciseData = eData.readExFile(exerciseFile);
 
 // remove any empty strings
-dataObj.exerciseData = exerciseData.filter(entry => entry.trim() != '');
+exerciseData = exerciseData.filter(entry => entry.trim() != '');
+dataObj.exerciseData = [];
 
-dataObj.workTime = dataObj.exerciseData.shift();
-dataObj.restTime = dataObj.exerciseData.shift();
+exerciseData.forEach(function (entry) {
+	var lineArray = entry.split(',');
+	dataObj.exerciseData.push({
+		exercise: lineArray[0].replace(/( +)/gm, " "),
+		time: lineArray[1].replace(/( |\r\n|\n|\r)/gm, "")
+	});
+});
 
-console.log(`${dataObj.exerciseData.length}`);
-dataObj.totalExercises = dataObj.exerciseData.length;
+dataObj.totalExercises = exerciseData.length;
 dataObj.onExercise = 0;
 dataObj.totalTime = calcTotalTime();
 dataObj.ellapsedTimex = 0;
@@ -27,11 +41,17 @@ dataObj.timeLeft = dataObj.totalTime - dataObj.ellapsedTimex;
 console.log(`totalTime: ${dataObj.totalTime}`);
 
 dataObj.exerciseData.forEach(function (entry) {
-	console.log(entry);
+	console.log(entry.exercise + " for " + entry.time + " second(s)");
+	log.info(entry.exercise + " for " + entry.time + " second(s)");
 });
+log.info('');
 
 function calcTotalTime() {
-	return (dataObj.totalExercises * dataObj.workTime) + (dataObj.totalExercises * dataObj.restTime);
+	var totalTime = 0;
+	dataObj.exerciseData.forEach(function (entry) {
+		totalTime += parseInt(entry.time);
+	});
+	return totalTime;
 }
 
 app.use(express.static(path.join(__dirname, 'public')));
