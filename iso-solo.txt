@@ -1,20 +1,34 @@
-10
-30
-Delay
-Calves 15
-Calves 14
-Curls 10
-Curls 9
-Squat 9
-Squat 10
-Seated Press 10
-Seated Press 11
-Rows 6
-Rows 5
-Alan Pushups 4
-Alan Pushups 3
-DeadLifts 3
-DeadLifts 2
-Bullworker front 
-Bullworker right 
-Bullworker left 
+Delay,30
+Calves 15,10
+Rest,30
+Calves 14,10
+Rest,30
+Curls 10,10
+Rest,30
+Curls 9,10
+Rest,30
+Squat 9,10
+Rest,30
+Squat 10,10
+Rest,30
+Seated Press 10,10
+Rest,30
+Seated Press 11,10
+Rest,30
+Rows 6,10
+Rest,30
+Rows 5,10
+Rest,30
+Alan Pushups 4,10
+Rest,30
+Alan Pushups 3,10
+Rest,30
+DeadLifts 3,10
+Rest,30
+DeadLifts 2,10
+Rest,30
+Bullworker front ,10
+Rest,30
+Bullworker right ,10
+Rest,30
+Bullworker left ,10

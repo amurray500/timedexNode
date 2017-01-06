@@ -1,25 +1,44 @@
-10
-30
-Delay
-Calves 15 11
-Calves 14 11
-Curls 10 8
-Curls 9 7
-Squat 9 9
-Squat 10 8
-Seated Press 10 9
-Seated Press 11 8
-Rows 6 5
-Rows 5 4
-Alan Pushups 4
-Jenna Pushups 3
-Alan Pushups 3
-Jenna Pushups 2
-DeadLifts 3 3
-DeadLifts 2 2
-Alan Bullworker front 
-Jenna Bullworker front 
-Alan Bullworker right 
-Jenna Bullworker right 
-Alan Bullworker left 
-Jenna Bullworker left 
+Delay,30
+Calves 15 11,10
+Rest,30
+Calves 14 11,10
+Rest,30
+Curls 10 8,10
+Rest,30
+Curls 9 7,10
+Rest,30
+Squat 9 9,10
+Rest,30
+Squat 10 8,10
+Rest,30
+Seated Press 10 9,10
+Rest,30
+Seated Press 11 8,10
+Rest,30
+Rows 6 5,10
+Rest,30
+Rows 5 4,10
+Rest,30
+Alan Pushups 4,10
+Rest,30
+Jenna Pushups 3,10
+Rest,30
+Alan Pushups 3,10
+Rest,30
+Jenna Pushups 2,10
+Rest,30
+DeadLifts 3 3,10
+Rest,30
+DeadLifts 2 2,10
+Rest,30
+Alan Bullworker front ,10
+Rest,30
+Jenna Bullworker front ,10
+Rest,30
+Alan Bullworker right ,10
+Rest,30
+Jenna Bullworker right ,10
+Rest,30
+Alan Bullworker left ,10
+Rest,30
+Jenna Bullworker left ,10

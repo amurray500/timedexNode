@@ -1,33 +1,60 @@
-1
-1
-Delay
-Jumping Jacks 1
-Jumping Jacks 2
-Jumping Jacks 3
-Pushups 1
-Pushups 2
-Pushups 3
-Situps 1
-Situps 2
-Situps 3
-Air Squats 1
-Air Squats 2
-Air Squats 3
-Mountain Climbers Inside 1
-Mountain Climbers Inside 2
-Mountain Climbers Inside 3
-Close Grip Pushups 1
-Close Grip Pushups 2
-Close Grip Pushups 3
-Kettlebell Swings 1
-Kettlebell Swings 2
-Kettlebell Swings 3
-Squat Jumps 1
-Squat Jumps 2
-Squat Jumps 3
-V-Ups 1
-V-Ups 2
-V-Ups 3
-Burpees 1
-Burpees 2
-Burpees 3
+Delay,2
+Jumping Jacks 1,2
+Rest,1
+Jumping Jacks 2,2
+Rest,1
+Jumping Jacks 3,2
+Rest,1
+Pushups 1,2
+Rest,1
+Pushups 2,2
+Rest,1
+Pushups 3,2
+Rest,1
+Situps 1,2
+Rest,1
+Situps 2,2
+Rest,1
+Situps 3,2
+Rest,1
+Air Squats 1,2
+Rest,1
+Air Squats 2,2
+Rest,1
+Air Squats 3,2
+Rest,1
+Mountain Climbers Inside 1,2
+Rest,1
+Mountain Climbers Inside 2,2
+Rest,1
+Mountain Climbers Inside 3,2
+Rest,1
+Close Grip Pushups 1,2
+Rest,1
+Close Grip Pushups 2,2
+Rest,1
+Close Grip Pushups 3,2
+Rest,1
+Kettlebell Swings 1,2
+Rest,1
+Kettlebell Swings 2,2
+Rest,1
+Kettlebell Swings 3,2
+Rest,1
+Squat Jumps 1,2
+Rest,1
+Squat Jumps 2,2
+Rest,1
+Squat Jumps 3,2
+Rest,1
+V-Ups 1,2
+Rest,1
+V-Ups 2,2
+Rest,1
+V-Ups 3,2
+Rest,1
+Burpees 1,2
+Rest,1
+Burpees 2,2
+Rest,1
+Burpees 3,2

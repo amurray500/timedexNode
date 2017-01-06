@@ -1,19 +1,32 @@
-10
-10
-Delay
-Mountain Climbers
-High knees
-Mountain Climbers
-High knees
-Pushups
-Jump rope
-Pushups
-Jump rope
-Squat Jump
-Squat hold
-Squat Jump
-Squat hold
-Plank jacks
-jumping jacks
-Plank jacks
-jumping jacks
+Delay,30
+Mountain Climbers,10
+Rest,10
+High knees,10
+Rest,10
+Mountain Climbers,10
+Rest,10
+High knees,10
+Rest,10
+Pushups,10
+Rest,10
+Jump rope,10
+Rest,10
+Pushups,10
+Rest,10
+Jump rope,10
+Rest,10
+Squat Jump,10
+Rest,10
+Squat hold,10
+Rest,10
+Squat Jump,10
+Rest,10
+Squat hold,10
+Rest,10
+Plank jacks,10
+Rest,10
+jumping jacks,10
+Rest,10
+Plank jacks,10
+Rest,10
+jumping jacks,10
