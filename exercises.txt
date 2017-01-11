@@ -47,11 +47,11 @@ Squat Jumps 2,10
 Rest,18
 Squat Jumps 3,10
 Rest,18
-V-Ups 1,10
+Bridge Alt Toe Touches 1,10
 Rest,18
-V-Ups 2,10
+Bridge Alt Toe Touches 2,10
 Rest,18
-V-Ups 3,10
+Bridge Alt Toe Touches 3,10
 Rest,18
 Burpees 1,10
 Rest,18

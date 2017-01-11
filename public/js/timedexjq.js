@@ -218,7 +218,7 @@ $(function () {
 	}
 
 	function setCounterColor(currentEx) {
-		if (currentEx === 'Rest') {
+		if (currentEx.toLowerCase() === 'rest') {
 			cdDiv.css('color', 'red');
 			fogHorn.play();
 		} else {
