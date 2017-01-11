@@ -9,13 +9,6 @@ First thing you need to do before running it is create a text file with your lis
 
 There is only one required argument which is the path to the text file with the exercises. The exercise file should list on each line an exercise or the word "Rest". Each line should also end with a comma and then an integer that tells the timer how many seconds to count down for that event.
 
-Here is a brief example of an exercise file:
-
-Hang Situps,15
-Rest,20
-Landmine Thrusters 50 lbs,15
-Rest,20
-
 Here is a simple example of running the app:
 
 node timedex.js -e exercises.txt
