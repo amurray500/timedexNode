@@ -1,0 +1,37 @@
+Delay,30
+Landmine Thrusters 50 lbs,15
+Rest,20
+Hang Situps,15
+Rest,20
+Landmine Thrusters 50 lbs,15
+Rest,20
+Hang Situps,15
+Rest,20
+Landmine Thrusters 50 lbs,15
+Rest,20
+Hang Situps,15
+Rest,20
+Squat Jumps,15
+Rest,20
+Pull Ups,15
+Rest,20
+Squat Jumps,15
+Rest,20
+Pull Ups,15
+Rest,20
+Squat Jumps,15
+Rest,20
+Pull Ups,15
+Rest,20
+Db Swing 45 lbs,15
+Rest,20
+Push Ups,15
+Rest,20
+Db Swing 45 lbs,15
+Rest,20
+Push Ups,15
+Rest,20
+Db Swing 45 lbs,15
+Rest,20
+Push Ups,15
+Rest,20
