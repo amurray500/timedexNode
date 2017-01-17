@@ -5,6 +5,13 @@ var open = require("open");
 var inputs = require("./timedex-input.js");
 var eData = require("./timedex-read.js");
 
+var bodyParser = require('body-parser')
+app.use(bodyParser.json()); // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({ // to support URL-encoded bodies
+	extended: true
+}));
+
+
 // create a rolling file logger based on date/time
 const opts = {
 	logDirectory: 'wod-log',
@@ -12,9 +19,9 @@ const opts = {
 	dateFormat: 'YYYY.MM.DD'
 };
 
-const log = require('simple-node-logger').createRollingFileLogger(opts);
-
 var dataObj = {};
+
+var logArray = [];
 
 var exerciseFile = inputs.exerciseFile;
 
@@ -42,9 +49,8 @@ console.log(`totalTime: ${dataObj.totalTime}`);
 
 dataObj.exerciseData.forEach(function (entry) {
 	console.log(entry.exercise + " for " + entry.time + " second(s)");
-	log.info(entry.exercise + " for " + entry.time + " second(s)");
+	logArray.push(entry.exercise + " for " + entry.time + " second(s)");
 });
-log.info('');
 
 function calcTotalTime() {
 	var totalTime = 0;
@@ -66,11 +72,25 @@ app.get("/getdata", function (req, res) {
 	});
 });
 
-// viewed at http://localhost:500
+
+app.post('/postdata', function (req, res) {
+	var status = req.body.status;
+	if (status === 'Done') {
+		const log = require('simple-node-logger').createRollingFileLogger(opts);
+		console.log('length of logArray: ' + logArray.length);
+		logArray.forEach(function (entry) {
+			log.info(entry);
+		});
+		log.info('');
+	}
+});
+
 app.get('/', function (req, res) {
 	res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+
 app.listen(500);
 
+// viewed at http://localhost:500
 open("http://localhost:500");

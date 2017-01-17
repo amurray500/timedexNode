@@ -1,0 +1,31 @@
+Delay,30
+Squat Jumps,15
+Rest,15
+Push Ups,15
+Rest,15
+Pull Ups,15
+Rest,15
+Burpees,15
+Rest,15
+Situps,15
+Rest,15
+Squat Jumps,15
+Rest,15
+Push Ups,15
+Rest,15
+Pull Ups,15
+Rest,15
+Burpees,15
+Rest,15
+Situps,15
+Rest,15
+Squat Jumps,15
+Rest,15
+Push Ups,15
+Rest,15
+Pull Ups,15
+Rest,15
+Burpees,15
+Rest,15
+Situps,15
+Rest,15

@@ -15,6 +15,7 @@ $(function () {
 		nextEx = '',
 		nextTime = '',
 		lastRunFlag = false,
+		alreadyLogged = false,
 		fogHorn, beep, ping, shotgun, applause;
 
 	// save dom elements
@@ -103,7 +104,16 @@ $(function () {
 		totalTimeInput.val(formatTime(exData.totalTime));
 	});
 
+	function logWorkOut() {
+		if (!alreadyLogged) {
+			alreadyLogged = true;
+			$.post("/postdata", {
+				status: "Done"
+			});
 
+		}
+
+	}
 
 	function buildExLoop(dataObj) {
 		cdDiv.removeClass('pauseInterval');
@@ -203,6 +213,7 @@ $(function () {
 				updateProgressBar(percent);
 				if (percent == 100) {
 					applause.play();
+					logWorkOut();
 				}
 			}
 		} else {
