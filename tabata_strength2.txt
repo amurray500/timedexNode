@@ -23,15 +23,15 @@ Squat Jumps,15
 Rest,20
 Pull Ups,15
 Rest,20
-Db Swing 45 lbs,15
+Kb Swing 45 lbs,15
 Rest,20
 Push Ups,15
 Rest,20
-Db Swing 45 lbs,15
+Kb Swing 45 lbs,15
 Rest,20
 Push Ups,15
 Rest,20
-Db Swing 45 lbs,15
+Kb Swing 45 lbs,15
 Rest,20
 Push Ups,15
 Rest,20

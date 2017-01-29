@@ -1,0 +1,37 @@
+Delay,30
+Landmine Thrusters 50 lbs,16
+Rest,19
+Hang Situps,16
+Rest,19
+Landmine Thrusters 50 lbs,16
+Rest,19
+Hang Situps,16
+Rest,19
+Landmine Thrusters 50 lbs,16
+Rest,19
+Hang Situps,16
+Rest,19
+Squat Jumps,16
+Rest,19
+Pull Ups,16
+Rest,19
+Squat Jumps,16
+Rest,19
+Pull Ups,16
+Rest,19
+Squat Jumps,16
+Rest,19
+Pull Ups,16
+Rest,19
+Box Planks,30
+Rest,19
+Push Ups,16
+Rest,19
+Box Planks,30
+Rest,19
+Push Ups,16
+Rest,19
+Box Planks,30
+Rest,19
+Push Ups,16
+Rest,19
