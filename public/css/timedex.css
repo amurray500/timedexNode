@@ -99,6 +99,7 @@ div.container {
 	float: left;
 	width: 15%;
 	background-color: lightgray;
+	align-items: center;
 }
 
 button {
@@ -137,4 +138,5 @@ button {
 
 .progressDivWrapper {
 	margin-top: 10px;
+	width: 250px;
 }
