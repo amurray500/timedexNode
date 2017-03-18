@@ -101,8 +101,7 @@ $(function () {
         exData = data.data;
         //   console.log("exData: " + JSON.stringify(exData));
 
-        var exerciseList = exData["exerciseData"];
-        fillMiddleFrameWithExerciseDetail(exerciseList);
+        fillMiddleFrameWithExerciseDetail();
 
     }).then(function () {
         setProgressBar(exData.totalTime);
@@ -169,6 +168,7 @@ $(function () {
         nextExercise.html('&nbsp;');
         updateProgressBar(0);
         startPauseBtn.text(START);
+        fillMiddleFrameWithExerciseDetail();
     })
 
     function startCounter() {
@@ -255,7 +255,10 @@ $(function () {
         innerProgressDiv.html(percent + '%');
     }
 
-    function fillMiddleFrameWithExerciseDetail(exerciseList) {
+    function fillMiddleFrameWithExerciseDetail() {
+
+        var exerciseList = exData["exerciseData"];
+
         var uniqExList = [];
         $.each(exerciseList, function (index, exerciseData) {
             //            console.log(index + ": " + exerciseData.exercise + ": " + exerciseData.time);

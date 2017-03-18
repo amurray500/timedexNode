@@ -141,8 +141,12 @@ button {
 	width: 250px;
 }
 
+table#exerciseListTable {
+    margin: auto;
+}
+
 table#exerciseListTable, th, td {
-    font-size: 18px;
-    line-height: 25px;
-    border: 1px solid black;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
 }
