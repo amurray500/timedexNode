@@ -75,6 +75,7 @@ app.get("/getdata", function (req, res) {
 
 app.post('/postdata', function (req, res) {
 	var status = req.body.status;
+    return;     // @@@@!!!!! for testing purposes only
 	if (status === 'Done') {
 		const log = require('simple-node-logger').createRollingFileLogger(opts);
 		console.log('length of logArray: ' + logArray.length);

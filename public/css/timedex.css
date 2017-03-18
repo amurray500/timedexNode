@@ -140,3 +140,9 @@ button {
 	margin-top: 10px;
 	width: 250px;
 }
+
+table#exerciseListTable, th, td {
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid black;
+}
