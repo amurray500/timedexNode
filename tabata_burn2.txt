@@ -7,7 +7,7 @@ Pull Ups,15
 Rest,15
 Burpees,15
 Rest,15
-Situps,15
+Hang Situps,15
 Rest,15
 Squat Jumps,15
 Rest,15
@@ -17,7 +17,7 @@ Pull Ups,15
 Rest,15
 Burpees,15
 Rest,15
-Situps,15
+Hang Situps,15
 Rest,15
 Squat Jumps,15
 Rest,15
@@ -27,5 +27,5 @@ Pull Ups,15
 Rest,15
 Burpees,15
 Rest,15
-Situps,15
+Hang Situps,15
 Rest,15

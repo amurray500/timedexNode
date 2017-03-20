@@ -1,5 +1,0 @@
-Delay,6
-Landmine Thrusters 50 lbs,6
-Rest,6
-Hang     Situps,6
-Rest,6
