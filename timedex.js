@@ -4,6 +4,14 @@ var path = require('path');
 var open = require("open");
 var inputs = require("./timedex-input.js");
 var eData = require("./timedex-read.js");
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "alan",
+  password: "pega",
+  database: "timedex"
+});
 
 var bodyParser = require('body-parser')
 app.use(bodyParser.json()); // to support JSON-encoded bodies
@@ -33,6 +41,7 @@ dataObj.exerciseData = [];
 
 exerciseData.forEach(function (entry) {
 	var lineArray = entry.split(',');
+    console.log("lineArray = " + lineArray)
 	dataObj.exerciseData.push({
 		exercise: lineArray[0].replace(/( +)/gm, " "),
 		time: lineArray[1].replace(/( |\r\n|\n|\r)/gm, "")
@@ -75,7 +84,7 @@ app.get("/getdata", function (req, res) {
 
 app.post('/postdata', function (req, res) {
 	var status = req.body.status;
-    return;     // @@@@!!!!! for testing purposes only
+   // return;     // @@@@!!!!! for testing purposes only
 	if (status === 'Done') {
 		const log = require('simple-node-logger').createRollingFileLogger(opts);
 		console.log('length of logArray: ' + logArray.length);
@@ -83,6 +92,27 @@ app.post('/postdata', function (req, res) {
 			log.info(entry);
 		});
 		log.info('');
+		// save exercise info to database
+		
+		
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+  
+	dataObj.exerciseData.forEach(function (entry) {
+	  var sql = "INSERT INTO timedex.workout ( workoutName, workoutDate, exercise, duration) VALUES ('" + exerciseFile + "', NOW(), '" + entry.exercise + "', " + entry.time + ")";
+
+	  con.query(sql, function (err, result) {
+	    if (err) throw err;
+	    console.log("1 record inserted");
+	  });
+	});
+});
+		
+		
+		
+
+		
 	}
 });
 

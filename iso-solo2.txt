@@ -1,0 +1,93 @@
+Delay,20
+Calves 14,6
+Rest,10
+Calves 14,6
+Rest,25
+Calves 15,6
+Rest,10
+Calves 15,6
+Rest,40
+
+Curls 9,6
+Rest,10
+Curls 9,6
+Rest,20
+Curls 10,6
+Rest,10
+Curls 10,6
+Rest,30
+
+Seated Press 11,6
+Rest,10
+Seated Press 11,6
+Rest,20
+Seated Press 10,6
+Rest,10
+Seated Press 10,6
+Rest,30
+
+Squat 10,6
+Rest,10
+Squat 10,6
+Rest,30
+Squat 9,6
+Rest,10
+Squat 9,6
+Rest,50
+
+Rows 5,6
+Rest,10
+Rows 5,6
+Rest,20
+Rows 6,6
+Rest,10
+Rows 6,6
+Rest,40
+
+Floor Press 3,6
+Rest,10
+Floor Press 3,6
+Rest,30
+Floor Press 4,6
+Rest,10
+Floor Press 4,6
+Rest,60
+
+DeadLifts 3,6
+Rest,10
+DeadLifts 3,6
+Rest,30
+DeadLifts 4,6
+Rest,10
+DeadLifts 4,6
+Rest,60
+
+Bullworker front ,6
+Rest,10
+Bullworker front ,6
+Rest,10
+Bullworker right ,6
+Rest,10
+Bullworker right ,6
+Rest,10
+Bullworker left ,6
+Rest,10
+Bullworker left ,6
+Rest,20
+
+neck front ,6
+Rest,10
+neck right ,6
+Rest,10
+neck left ,6
+Rest,10
+neck back ,6
+Rest,20
+Bullworker Abduction ,6
+Rest,10
+Bullworker Abduction ,6
+Rest,20
+Med ball adduction ,6
+Rest,10
+Med ball adduction ,6
+Rest,10

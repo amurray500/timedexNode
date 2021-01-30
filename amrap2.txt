@@ -1,0 +1,86 @@
+Delay,20
+
+Slow Squats 60 lbs,25
+Rest,45
+
+Ab roller,18
+Rest,45
+
+Curls 80 lbs,18
+Rest,45
+
+Reverse Hypers 30 lbs + black mini,18
+Rest,45
+
+Slow Inc Db Press 25 lbs,25
+Rest,45
+
+Rows 110 lbs,18
+Rest,45
+
+Baseball Holds 40 lbs each side,18
+Rest,45
+
+Slow Squats 60 lbs,25
+Rest,45
+
+Ab roller,18
+Rest,45
+
+Curls 80 lbs,18
+Rest,45
+
+Reverse Hypers 30 lbs + black mini,18
+Rest,45
+
+Slow Inc Db Press 25 lbs,25
+Rest,45
+
+Rows 110 lbs,18
+Rest,45
+
+Baseball Holds 40 lbs each side,18
+Rest,45
+
+Slow Squats 60 lbs,25
+Rest,45
+
+Ab roller,18
+Rest,45
+
+Curls 80 lbs,18
+Rest,45
+
+Reverse Hypers 30 lbs + black mini,18
+Rest,45
+
+Slow Inc Db Press 25 lbs,25
+Rest,45
+
+Rows 110 lbs,18
+Rest,45
+
+Baseball Holds 40 lbs each side,18
+Rest,45
+
+Slow Squats 60 lbs,25
+Rest,45
+
+Ab roller,18
+Rest,45
+
+Curls 80 lbs,18
+Rest,45
+
+Reverse Hypers 30 lbs + black mini,18
+Rest,45
+
+Slow Inc Db Press 25 lbs,25
+Rest,45
+
+Rows 110 lbs,18
+Rest,45
+
+Baseball Holds 40 lbs each side,18
+Rest,45
+

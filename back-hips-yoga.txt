@@ -1,0 +1,37 @@
+Delay,30
+wide knee child, 30
+Rest, 10
+knees together child, 30
+Rest, 10
+squat, 60
+Rest, 10
+bent knee rag doll, 30
+Rest, 10
+pigeon supported left, 30
+Rest, 10
+pigeon supported left, 30
+Rest, 10
+baddha konasana, 60
+Rest, 10
+reclined squat, 60
+Rest, 10
+Plank, 60
+Rest, 10
+wide knee child, 30
+Rest, 10
+knees together child, 30
+Rest, 10
+squat, 60
+Rest, 10
+bent knee rag doll, 30
+Rest, 10
+pigeon supported left, 30
+Rest, 10
+pigeon supported left, 30
+Rest, 10
+baddha konasana, 60
+Rest, 10
+reclined squat, 60
+Rest, 10
+Plank, 60
+Rest, 10

@@ -1,0 +1,9 @@
+Delay,2
+Calves 15 2,2
+Rest,2
+Calves 14 2,2
+Rest,2
+Curls 10 2,2
+Rest,2
+Curls 9 2,2
+Rest,2

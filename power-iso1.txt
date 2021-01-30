@@ -1,0 +1,39 @@
+Delay,40
+
+Calve Raise h15 200 lbs,20
+Rest,90
+Calve Raise h15 310 lbs iso,10
+Rest,150
+
+Squat h9 60 lbs,20
+Rest,60
+Squat h9 130 lbs,20
+Rest,90
+Squat h9 180 lbs iso,10
+Rest,150
+
+Curl h8 45 lbs,20
+Rest,60
+Curl h8 70 lbs,20
+Rest,80
+Curl h8 110 lbs iso,10
+Rest,120
+
+Deadlift h2 45 lbs,20
+Rest,60
+Deadlift h2 195 lbs,20
+Rest,120
+Deadlift h2 245 lbs iso,10
+Rest,150
+
+TRX T,30
+Rest,30
+TRX T,30
+Rest,30
+TRX T,30
+Rest,60
+
+Hang Situps small,10
+Rest,60
+Hang Situps small,10
+Rest,30

@@ -1,0 +1,62 @@
+Delay,20
+
+Hex Bar DL 90 lbs small band lbs,18
+Rest,45
+
+Pushups,18
+Rest,45
+
+Hang Situps #,18
+Rest,45
+
+Pullups small band,18
+Rest,45
+
+GHR 10 lbs,18
+Rest,120
+
+Hex Bar DL 150 lbs small band lbs,18
+Rest,45
+
+Pushups,18
+Rest,45
+
+Hang Situps #,18
+Rest,45
+
+Pullups small band,18
+Rest,45
+
+GHR 15 lbs,18
+Rest,60
+
+Hex Bar DL 150 lbs small band lbs,18
+Rest,45
+
+Pushups,18
+Rest,45
+
+Hang Situps #,18
+Rest,45
+
+Pullups small band,18
+Rest,45
+
+GHR 15 lbs,18
+Rest,60
+
+Hex Bar DL 150 lbs small band lbs,18
+Rest,45
+
+Pushups,18
+Rest,45
+
+Hang Situps #,18
+Rest,45
+
+Pullups small band,18
+Rest,45
+
+GHR 15 lbs,18
+Rest,60
+

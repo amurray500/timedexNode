@@ -1,0 +1,66 @@
+Delay,20
+
+Calves 14,15
+Rest,20
+Calves 15,15
+Rest,40
+
+Curls 9,15
+Rest,20
+Curls 10,15
+Rest,60
+
+1 Bulgarian Split Squat left 10,15
+Rest,20
+1 Bulgarian Split Squat right 10,15
+Rest,40
+1 Bulgarian Split Squat left 9,15
+Rest,20
+1 Bulgarian Split Squat right 9,15
+Rest,40
+
+Seated Press 11,15
+Rest,20
+Seated Press 10,15
+Rest,40
+
+Rows 5,15
+Rest,20
+Rows 6,15
+Rest,40
+
+Bench 3,15
+Rest,40
+Bench 4,15
+Rest,40
+
+DeadLifts 3,15
+Rest,20
+DeadLifts 4,15
+Rest,40
+
+Bullworker front ,15
+Rest,20
+Bullworker right ,15
+Rest,20
+Bullworker left ,15
+Rest,20
+
+Bullworker Abduction ,15
+Rest,20
+Bullworker Abduction ,15
+Rest,30
+
+Med ball adduction ,15
+Rest,20
+Med ball adduction ,15
+Rest,30
+
+CofC right #T,12
+Rest,20
+CofC left #T,12
+Rest,20
+CofC right #T,12
+Rest,20
+CofC left #T,12
+Rest,20

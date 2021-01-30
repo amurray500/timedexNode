@@ -1,0 +1,49 @@
+Delay,30
+1 Db Inc Bench 45/5,20
+Rest,20
+1 Trx Rows #/5,20
+Rest,30
+1 TRX Y Row #/5,20
+Rest,20
+1 cambered hammer curl 70/15 sec,15
+Rest,30
+2 Db Inc Bench 45/5,20
+Rest,20
+2 Trx Rows #/5,20
+Rest,30
+2 TRX Y Row #/5,20
+Rest,20
+2 cambered hammer curl 70/15 sec,15
+Rest,30
+3 Db Inc Bench 45/5,20
+Rest,20
+3 Trx Rows #/5,20
+Rest,30
+3 TRX Y Row #/5,20
+Rest,20
+3 cambered hammer curl 70/15 sec,15
+Rest,30
+4 Db Inc Bench 45/5,20
+Rest,20
+4 Trx Rows #/5,20
+Rest,30
+4 TRX Y Row #/5,20
+Rest,20
+4 cambered hammer curl 70/15 sec,15
+Rest,30
+5 Db Inc Bench 45/5,20
+Rest,20
+5 Trx Rows #/5,20
+Rest,30
+5 TRX Y Row #/5,20
+Rest,20
+5 cambered hammer curl 70/15 sec,15
+Rest,30 
+6 Db Inc Bench 45/5,20
+Rest,20
+6 Trx Rows #/5,20
+Rest,30
+6 TRX Y Row #/5,20
+Rest,20
+6 cambered hammer curl 70/15 sec,15
+Rest,30

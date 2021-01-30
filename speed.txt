@@ -1,0 +1,33 @@
+Delay,20
+1Box Pushups 19,25
+Rest,30
+1LM Rows 10 75 lbs,25
+Rest,30
+1Burpee Knee Tucks 6,25
+Rest,30
+1Leg Raises 8,20
+Rest,60
+2Box Pushups 19,25
+Rest,30
+2LM Rows 10 75 lbs,25
+Rest,30
+2Burpee Knee Tucks 6,25
+Rest,30
+2Leg Raises 8,20
+Rest,60
+3Box Pushups 19,25
+Rest,30
+3LM Rows 10 75 lbs,25
+Rest,30
+3Burpee Knee Tucks 6,25
+Rest,30
+3Leg Raises 8,20
+Rest,60
+4Box Pushups 19,25
+Rest,30
+4LM Rows 10 75 lbs,25
+Rest,30
+4Burpee Knee Tucks 6,25
+Rest,30
+4Leg Raises 8,20
+Rest,10

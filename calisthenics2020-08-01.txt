@@ -1,0 +1,29 @@
+Delay,20
+1 Push-ups 10 sec,10
+Rest,30
+1 Air Squats 10 sec,10
+Rest,30
+1 Planks 30 sec,30
+Rest,30
+1 Lung Right 10 sec,10
+Rest,15
+1 Lung Left 10 sec,10
+Rest,30
+1 Leg Abduction Right 10 sec,10
+Rest,15
+1 Leg Abduction Left 10 sec,10
+Rest,30
+2 Push-ups 10 sec,10
+Rest,30
+2 Air Squats 10 sec,10
+Rest,30
+2 Planks 30 sec,30
+Rest,30
+2 Lung Right 10 sec,10
+Rest,15
+2 Lung Left 10 sec,10
+Rest,30
+2 Leg Abduction Right 10 sec,10
+Rest,15
+2 Leg Abduction Left 10 sec,10
+Rest,30

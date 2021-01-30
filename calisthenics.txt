@@ -1,0 +1,25 @@
+Delay,20
+1Pushups 11 14,15
+Rest,15
+1Situps 11 14,15
+Rest,15
+1Burpee 6 8,15
+Rest,15
+2Pushups 11 14,15
+Rest,15
+2Situps 11 14,15
+Rest,15
+2Burpee 6 8,15
+Rest,15
+3Pushups 11 14,15
+Rest,15
+3Situps 11 14,15
+Rest,15
+3Burpee 6 8,15
+Rest,15
+4Pushups 11 14,15
+Rest,15
+4Situps 11 14,15
+Rest,15
+4Burpee 6 8,15
+Rest,15

@@ -1,0 +1,27 @@
+Delay,30
+Standing Side Bend Right, 30
+Rest, 10
+Standing Side Bend Left, 30
+Rest, 10
+Downward Dog, 30
+Rest, 10
+Cobra, 30
+Rest, 10
+Crescent Lunge Right, 30
+Rest, 10
+Crescent Lunge Left, 30
+Rest, 10
+Cat/Cow (M), 60
+Rest, 10
+Pigeon Right, 30
+Rest, 10
+Pigeon left, 30
+Rest, 10
+Happy Baby, 30
+Rest, 10
+Yoga Squat, 30
+Rest, 10
+Windshield Wiper (M), 60
+Rest, 10
+Plank, 60
+Rest, 10

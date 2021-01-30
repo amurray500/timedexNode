@@ -1,0 +1,34 @@
+Delay,40
+
+Calve Raise h15 200 lbs,20
+Rest,90
+Calve Raise h15 310 lbs iso,10
+Rest,150
+
+Squat h11 60 lbs,20
+Rest,60
+Squat h11 170 lbs,20
+Rest,90
+Squat h11 230 lbs iso,10
+Rest,150
+
+Curl h10 45 lbs,20
+Rest,60
+Curl h10 65 lbs,20
+Rest,60
+Curl h10 70 lbs iso,10
+Rest,100
+
+Deadlift h4 45 lbs,20
+Rest,90
+Deadlift h4 205 lbs,20
+Rest,90
+Deadlift h4 275 lbs iso,10
+Rest,150
+
+Plank dumbbell Y 10 lbs dumbbell,40
+Rest,60
+Plank dumbbell Y 10 lbs dumbbell,40
+Rest,60
+Plank dumbbell Y 10 lbs dumbbell,40
+Rest,60

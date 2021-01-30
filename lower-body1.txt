@@ -1,0 +1,31 @@
+Delay,30
+1 Bulgarian Split Squat left #/12,40
+Rest,20
+1 Bulgarian Split Squat right #/12,40
+Rest,20
+1 Leg ups #/14 sec,14
+Rest,30
+1 Hyper Ext 20/30 sec,30
+Rest,20
+1 Planks #/65 sec,65
+Rest,20
+2 Bulgarian Split Squat left #/12,40
+Rest,20
+2 Bulgarian Split Squat right #/12,40
+Rest,20
+2 Leg ups #/14 sec,14
+Rest,30
+2 Hyper Ext 20/30 sec,30
+Rest,20
+2 Planks #/65 sec,65
+Rest,20
+3 Bulgarian Split Squat left #/12,40
+Rest,20
+3 Bulgarian Split Squat right #/12,40
+Rest,20
+3 Leg ups #/14 sec,14
+Rest,30
+3 Hyper Ext 20/30 sec,30
+Rest,20
+3 Planks #/65 sec,65
+
